@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="270mm"
+   height="245mm"
+   viewBox="0 0 270 245"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="TCO Model.svg"
+   inkscape:export-filename="TCO Model.png"
+   inkscape:export-xdpi="670.8"
+   inkscape:export-ydpi="670.8"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.50205276"
+     inkscape:cx="599.53858"
+     inkscape:cy="428.24185"
+     inkscape:window-width="958"
+     inkscape:window-height="1008"
+     inkscape:window-x="953"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g17"
+     showguides="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g18"
+       transform="translate(3.9430621e-8,-0.88437355)">
+      <g
+         id="g17"
+         transform="translate(2.1694702,1.8747601)">
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-dasharray:2.295, 2.295;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+           id="rect1-7"
+           width="119.23499"
+           height="121.66382"
+           x="6.3143201"
+           y="13.979083"
+           ry="2.9591193"
+           rx="2.963412" />
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#151515;stroke-width:0.765004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-dasharray:2.29501, 2.29501;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+           id="rect1-7-9"
+           width="119.23496"
+           height="84.055534"
+           x="5.7448745"
+           y="154.46239"
+           ry="2.0444071"
+           rx="5.5132365" />
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-dasharray:2.295, 2.295;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+           id="rect1-7-6"
+           width="119.23498"
+           height="121.66382"
+           x="140.6812"
+           y="13.979083"
+           ry="2.9591193"
+           rx="2.963552" />
+        <text
+           xml:space="preserve"
+           style="font-size:8.03255px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264582"
+           x="65.600266"
+           y="9.9667234"
+           id="text1-66"><tspan
+             sodipodi:role="line"
+             id="tspan1-22"
+             style="font-weight:bold;stroke-width:0.264582"
+             x="65.600266"
+             y="9.9667234">Fleet</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:8.03255px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264582"
+           x="200.09528"
+           y="9.9667234"
+           id="text1-66-2"><tspan
+             sodipodi:role="line"
+             id="tspan1-22-3"
+             style="font-weight:bold;stroke-width:0.264582"
+             x="200.09528"
+             y="9.9667234">Infrastructure</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:8.03255px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264582"
+           x="65.508774"
+           y="150.4548"
+           id="text1-66-2-6"><tspan
+             sodipodi:role="line"
+             id="tspan1-22-3-7"
+             style="font-weight:bold;stroke-width:0.264582"
+             x="65.508774"
+             y="150.4548">Workforce</tspan></text>
+        <g
+           id="g8"
+           transform="translate(-12.895125,-11.145229)">
+          <rect
+             style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+             id="rect1"
+             width="49.562107"
+             height="32.792973"
+             x="25.783033"
+             y="30.382673"
+             ry="2.9591193"
+             rx="2.9591193" />
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+             x="50.550308"
+             y="39.788731"
+             id="text1"><tspan
+               sodipodi:role="line"
+               id="tspan1"
+               style="font-weight:bold;stroke-width:0.264583"
+               x="50.550308"
+               y="39.788731">Fleet Cell</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+             x="50.540661"
+             y="50.819565"
+             id="text1-0"><tspan
+               sodipodi:role="line"
+               style="font-weight:normal;stroke-width:0.264583"
+               x="50.540661"
+               y="50.819565"
+               id="tspan2">BEV Trucks</tspan></text>
+        </g>
+        <g
+           id="g9"
+           transform="translate(-12.895125,-14.320229)">
+          <g
+             id="g10">
+            <rect
+               style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+               id="rect1-1"
+               width="49.562107"
+               height="32.792973"
+               x="25.783033"
+               y="72.734734"
+               ry="2.9591193"
+               rx="2.9591193" />
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:41.9069;display:inline;stroke-width:0.264583"
+               x="50.540661"
+               y="93.173012"
+               id="text1-0-2"><tspan
+                 x="50.540661"
+                 y="93.173012"
+                 id="tspan3">BEV LHDs<tspan
+   y="93.173012"
+   id="tspan4"> </tspan></tspan><tspan
+                 x="50.540661"
+                 y="100.22856"
+                 id="tspan5">(Large)</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+               x="50.550308"
+               y="82.143555"
+               id="text1-1"><tspan
+                 sodipodi:role="line"
+                 id="tspan1-6"
+                 style="font-weight:bold;stroke-width:0.264583"
+                 x="50.550308"
+                 y="82.143555">Fleet Cell</tspan></text>
+          </g>
+          <g
+             id="g10-3"
+             transform="translate(0.0744146,39.17706)">
+            <rect
+               style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+               id="rect1-1-4"
+               width="49.562107"
+               height="32.792973"
+               x="25.783033"
+               y="72.734734"
+               ry="2.9591193"
+               rx="2.9591193" />
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:43.8769;display:inline;stroke-width:0.264583"
+               x="50.540661"
+               y="93.173012"
+               id="text1-0-2-2"><tspan
+                 x="50.540661"
+                 y="93.173012"
+                 id="tspan7">Utility BEVs</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+               x="50.550308"
+               y="82.143555"
+               id="text1-1-20"><tspan
+                 sodipodi:role="line"
+                 id="tspan1-6-71"
+                 style="font-weight:bold;stroke-width:0.264583"
+                 x="50.550308"
+                 y="82.143555">Fleet Cell</tspan></text>
+          </g>
+          <g
+             id="g10-7"
+             transform="translate(56.257578)">
+            <rect
+               style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+               id="rect1-1-7"
+               width="49.562107"
+               height="32.792973"
+               x="25.783033"
+               y="72.734734"
+               ry="2.9591193"
+               rx="2.9591193" />
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:39.6836;display:inline;stroke-width:0.264583"
+               x="50.540661"
+               y="93.173012"
+               id="text1-0-2-1"><tspan
+                 x="50.540661"
+                 y="93.173012"
+                 id="tspan8">Light Duty<tspan
+   y="93.173012"
+   id="tspan9"> </tspan></tspan><tspan
+                 x="50.540661"
+                 y="100.22856"
+                 id="tspan17">BEVs</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+               x="50.550308"
+               y="82.143555"
+               id="text1-1-2"><tspan
+                 sodipodi:role="line"
+                 id="tspan1-6-7"
+                 style="font-weight:bold;stroke-width:0.264583"
+                 x="50.550308"
+                 y="82.143555">Fleet Cell</tspan></text>
+          </g>
+        </g>
+        <g
+           id="g5"
+           transform="translate(-12.895125,-11.145229)">
+          <rect
+             style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+             id="rect1-2"
+             width="49.562107"
+             height="32.792973"
+             x="82.139832"
+             y="30.382673"
+             ry="2.9591193"
+             rx="2.9591193" />
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+             x="106.9071"
+             y="39.788731"
+             id="text1-6"><tspan
+               sodipodi:role="line"
+               id="tspan1-2"
+               style="font-weight:bold;stroke-width:0.264583"
+               x="106.9071"
+               y="39.788731">Fleet Cell</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:38.4259;display:inline;stroke-width:0.264583"
+             x="106.72382"
+             y="50.818188"
+             id="text1-0-8"><tspan
+               x="106.72382"
+               y="50.818188"
+               id="tspan18">BEV LHDs<tspan
+   y="50.818188"
+   id="tspan23"> </tspan></tspan><tspan
+               x="106.72382"
+               y="57.873737"
+               id="tspan24">(Small)</tspan></text>
+        </g>
+        <g
+           id="g7"
+           transform="translate(-69.177509,129.34284)">
+          <rect
+             style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+             id="rect1-2-5"
+             width="49.562107"
+             height="32.792973"
+             x="82.139832"
+             y="30.382673"
+             ry="2.9591193"
+             rx="2.9591193" />
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+             x="106.9071"
+             y="39.71983"
+             id="text1-6-2"><tspan
+               sodipodi:role="line"
+               id="tspan1-2-2"
+               style="font-weight:bold;stroke-width:0.264583"
+               x="106.9071"
+               y="39.71983">Workforce Cell</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+             x="106.72382"
+             y="49.693703"
+             id="text1-0-8-2"><tspan
+               sodipodi:role="line"
+               style="font-weight:normal;stroke-width:0.264583"
+               x="106.72382"
+               y="49.693703"
+               id="tspan6">Operators</tspan></text>
+        </g>
+        <g
+           id="g7-5"
+           transform="translate(-12.994345,129.34284)">
+          <rect
+             style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+             id="rect1-2-5-1"
+             width="49.562107"
+             height="32.792973"
+             x="82.139832"
+             y="30.382673"
+             ry="2.9591193"
+             rx="2.9591193" />
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+             x="106.9071"
+             y="39.71983"
+             id="text1-6-2-5"><tspan
+               sodipodi:role="line"
+               id="tspan1-2-2-42"
+               style="font-weight:bold;stroke-width:0.264583"
+               x="106.9071"
+               y="39.71983">Workforce Cell</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:49.9562;display:inline;stroke-width:0.264583"
+             x="106.72382"
+             y="51.738712"
+             id="text1-0-8-2-5"
+             transform="translate(0,-2.1166667)"><tspan
+               x="106.72382"
+               y="51.738712"
+               id="tspan28">Maintenance<tspan
+   y="51.738712"
+   id="tspan29"> </tspan></tspan><tspan
+               x="106.72382"
+               y="58.794261"
+               id="tspan30">(Electrical)</tspan></text>
+        </g>
+        <g
+           id="g7-7"
+           transform="translate(-69.177509,168.5199)">
+          <rect
+             style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+             id="rect1-2-5-9"
+             width="49.562107"
+             height="32.792973"
+             x="82.139832"
+             y="30.382673"
+             ry="2.9591193"
+             rx="2.9591193" />
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+             x="106.9071"
+             y="39.791496"
+             id="text1-6-2-3"><tspan
+               sodipodi:role="line"
+               id="tspan1-2-2-5"
+               style="font-weight:bold;stroke-width:0.264583"
+               x="106.9071"
+               y="39.791496">Workforce Cell</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:49.9562;display:inline;stroke-width:0.264583"
+             x="106.72382"
+             y="51.915115"
+             id="text1-0-8-2-8"
+             transform="translate(0,-2.1166667)"><tspan
+               x="106.72382"
+               y="51.915115"
+               id="tspan31">Maintenance<tspan
+   y="51.915115"
+   id="tspan32"> </tspan></tspan><tspan
+               x="106.72382"
+               y="58.970664"
+               id="tspan33">(Mechanical)</tspan></text>
+        </g>
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#151515;stroke-width:0.765002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-dasharray:2.295, 2.295;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+           id="rect1-7-9-2"
+           width="119.23498"
+           height="84.055412"
+           x="140.6812"
+           y="154.46239"
+           ry="2.0444038"
+           rx="5.5132375" />
+        <text
+           xml:space="preserve"
+           style="font-size:8.03255px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264582"
+           x="200.20242"
+           y="150.4548"
+           id="text1-66-2-6-8"><tspan
+             sodipodi:role="line"
+             id="tspan1-22-3-7-0"
+             style="font-weight:bold;stroke-width:0.264582"
+             x="200.20242"
+             y="150.4548">Digital Solutions</tspan></text>
+        <g
+           id="g7-77"
+           transform="translate(65.758814,129.34284)">
+          <rect
+             style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+             id="rect1-2-5-2"
+             width="49.562107"
+             height="32.792973"
+             x="82.139832"
+             y="30.382673"
+             ry="2.9591193"
+             rx="2.9591193" />
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+             x="106.9071"
+             y="39.71983"
+             id="text1-6-2-6"><tspan
+               sodipodi:role="line"
+               id="tspan1-2-2-4"
+               style="font-weight:bold;stroke-width:0.264583"
+               x="106.9071"
+               y="39.71983">DS Cell</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:49.9562;display:inline;stroke-width:0.264583"
+             x="106.72382"
+             y="46.799831"
+             id="text1-0-8-2-7"><tspan
+               x="106.72382"
+               y="46.799831"
+               id="tspan34">Energy<tspan
+   y="46.799831"
+   id="tspan35"> </tspan></tspan><tspan
+               x="106.72382"
+               y="53.85538"
+               id="tspan36">Management<tspan
+   y="53.85538"
+   id="tspan37"> </tspan></tspan><tspan
+               x="106.72382"
+               y="60.91093"
+               id="tspan38">System</tspan></text>
+        </g>
+        <g
+           id="g7-7-0"
+           transform="translate(121.46703,129.34284)">
+          <rect
+             style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+             id="rect1-2-5-9-7"
+             width="49.562107"
+             height="32.792973"
+             x="82.139832"
+             y="30.382673"
+             ry="2.9591193"
+             rx="2.9591193" />
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+             x="106.9071"
+             y="39.791496"
+             id="text1-6-2-3-8"><tspan
+               sodipodi:role="line"
+               id="tspan1-2-2-5-5"
+               style="font-weight:bold;stroke-width:0.264583"
+               x="106.9071"
+               y="39.791496">DS Cell</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:49.9562;display:inline;stroke-width:0.264583"
+             x="106.72382"
+             y="50.856781"
+             id="text1-0-8-2-8-1"
+             transform="translate(0,-4.0569496)"><tspan
+               x="106.72382"
+               y="50.856781"
+               id="tspan39">Maintenance<tspan
+   y="50.856781"
+   id="tspan40"> </tspan></tspan><tspan
+               x="106.72382"
+               y="57.91233"
+               id="tspan41">Management<tspan
+   y="57.91233"
+   id="tspan42"> </tspan></tspan><tspan
+               x="106.72382"
+               y="64.967879"
+               id="tspan43">System</tspan></text>
+        </g>
+        <g
+           id="g16"
+           transform="translate(-12.895125,-11.145229)">
+          <g
+             id="g11"
+             transform="translate(2.345337)">
+            <rect
+               style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+               id="rect1-2-1"
+               width="49.562107"
+               height="32.792973"
+               x="157.79985"
+               y="30.382673"
+               ry="2.9591193"
+               rx="2.9591193" />
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+               x="182.58228"
+               y="39.229248"
+               id="text1-6-6"><tspan
+                 sodipodi:role="line"
+                 id="tspan1-2-6"
+                 style="font-weight:bold;stroke-width:0.264583"
+                 x="182.58228"
+                 y="39.229248">Infra Cell</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:51.6088;display:inline;stroke-width:0.264583"
+               x="181.55754"
+               y="50.294533"
+               id="text1-0-8-5"
+               transform="translate(0.88410786,-0.00137815)"><tspan
+                 x="181.55754"
+                 y="50.294533"
+                 id="tspan44">Chargers</tspan></text>
+          </g>
+          <g
+             id="g14"
+             transform="translate(0.748107,-3.1750001)">
+            <rect
+               style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+               id="rect1-2-1-2"
+               width="49.562107"
+               height="32.792973"
+               x="159.39708"
+               y="72.734734"
+               ry="2.9591193"
+               rx="2.9591193" />
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+               x="184.18089"
+               y="81.584068"
+               id="text1-6-6-8"><tspan
+                 sodipodi:role="line"
+                 id="tspan1-2-6-9"
+                 style="font-weight:bold;stroke-width:0.264583"
+                 x="184.18089"
+                 y="81.584068">Infra Cell</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:51.6088;display:inline;stroke-width:0.264583"
+               x="183.15477"
+               y="92.649361"
+               id="text1-0-8-5-5"
+               transform="translate(0.81851251)"><tspan
+                 x="183.15477"
+                 y="92.649361"
+                 id="tspan45">Battery Swapping<tspan
+   y="92.649361"
+   id="tspan46"> </tspan></tspan><tspan
+                 x="183.15477"
+                 y="99.704913"
+                 id="tspan47">Station</tspan></text>
+          </g>
+          <g
+             id="g12"
+             transform="translate(5.279027)">
+            <rect
+               style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+               id="rect1-2-1-9"
+               width="49.562107"
+               height="32.792973"
+               x="211.22296"
+               y="30.382673"
+               ry="2.9591193"
+               rx="2.9591193" />
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+               x="236.00677"
+               y="39.229248"
+               id="text1-6-6-0"><tspan
+                 sodipodi:role="line"
+                 id="tspan1-2-6-0"
+                 style="font-weight:bold;stroke-width:0.264583"
+                 x="236.00677"
+                 y="39.229248">Infra Cell</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:51.6088;display:inline;stroke-width:0.264583"
+               x="234.98065"
+               y="53.82093"
+               id="text1-0-8-5-7"
+               transform="translate(0.88436726,-3.5277759)"><tspan
+                 x="234.98065"
+                 y="53.82093"
+                 id="tspan48">Fast Chargers</tspan></text>
+          </g>
+          <g
+             id="g13"
+             transform="translate(4.349367,-3.1750001)">
+            <rect
+               style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+               id="rect1-2-1-9-4"
+               width="49.562107"
+               height="32.792973"
+               x="212.15262"
+               y="72.734734"
+               ry="2.9591193"
+               rx="2.9591193" />
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+               x="236.93643"
+               y="81.584068"
+               id="text1-6-6-0-6"><tspan
+                 sodipodi:role="line"
+                 id="tspan1-2-6-0-2"
+                 style="font-weight:bold;stroke-width:0.264583"
+                 x="236.93643"
+                 y="81.584068">Infra Cell</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:43.8003;display:inline;stroke-width:0.264583"
+               x="235.91031"
+               y="92.64798"
+               id="text1-0-8-5-7-5"
+               transform="translate(0.81819253)"><tspan
+                 x="235.91031"
+                 y="92.64798"
+                 id="tspan49">Battery Storage<tspan
+   y="92.64798"
+   id="tspan50"> </tspan></tspan><tspan
+                 x="235.91031"
+                 y="99.703532"
+                 id="tspan51">Depot</tspan></text>
+          </g>
+          <g
+             id="g15"
+             transform="translate(77.929244,36.00206)">
+            <rect
+               style="fill:#e9e9e9;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1;paint-order:fill markers stroke"
+               id="rect1-2-1-9-4-1"
+               width="49.562107"
+               height="32.792973"
+               x="82.215942"
+               y="72.734734"
+               ry="2.9591193"
+               rx="2.9591193" />
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+               x="106.84266"
+               y="81.549622"
+               id="text1-6-6-0-6-3"><tspan
+                 sodipodi:role="line"
+                 id="tspan1-2-6-0-2-4"
+                 style="font-weight:bold;stroke-width:0.264583"
+                 x="106.84266"
+                 y="81.549622">Infra Cell</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+               x="107.03972"
+               y="93.174393"
+               id="text1-0-8-5-7-5-9"><tspan
+                 sodipodi:role="line"
+                 style="font-weight:normal;stroke-width:0.264583"
+                 x="107.03972"
+                 y="93.174393"
+                 id="tspan5-5">Maintenance Bay</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
