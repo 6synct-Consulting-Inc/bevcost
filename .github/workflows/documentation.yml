@@ -13,8 +13,8 @@ jobs:
         persist-credentials: false
     - uses: actions/setup-python@v5
     - name: Install dependencies
-        run: |
-          pip install sphinx sphinx_rtd_theme myst_parser
+      run: |
+        pip install sphinx sphinx_rtd_theme myst_parser
     - name: Build HTML
       uses: ammaraskar/sphinx-action@master
     - name: Upload artifacts
