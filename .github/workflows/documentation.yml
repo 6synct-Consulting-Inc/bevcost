@@ -2,11 +2,12 @@ name: "Sphinx: Render docs"
 
 on: push
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
     - uses: actions/checkout@v4
       with:
@@ -15,8 +16,9 @@ jobs:
     - name: Install dependencies
       run: |
         pip install sphinx sphinx_rtd_theme myst_parser
-    - name: Build HTML
-      uses: ammaraskar/sphinx-action@master
+    - name: Sphinx build
+      run: |
+      sphinx-build -M html ./source ./build
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
