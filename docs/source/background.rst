@@ -39,7 +39,7 @@ Model classes
 -------------
 There are four classes that each describe a primary type of object the TCO model uses. The classes are: *FleetCell*, *InfraCell*, *WorkforceCell* and *DigitalSolutionsCell*. An example of a TCO analysis is shown in the figure below, made up of multiple objects from each class. 
 
-.. figure:: /_static/images/TCO_Model.svg
+.. figure:: /images/TCO_Model.svg
    :align: center
    :alt: TCO model block diagram
    
@@ -65,7 +65,7 @@ TCO analysis process
 --------------------
 The actual TCO analysis process is straightforward, once the input data has been created. The flowchart below shows the main calculation steps, from model setup to the main calculations for each class and the final cost summaries.
 
-.. figure:: /_ststic/images/TCO_Analysis_Methodology.svg
+.. figure:: /images/TCO_Analysis_Methodology.svg
    :align: center
    :alt: TCO model analysis flowchart
 
