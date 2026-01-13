@@ -1,10 +1,18 @@
-A brief summary of the project and its purpose. 
+# bevcost
+> **bevcost** is a Python package that simplifies the total cost of ownership (TCO) analysis of BEV fleets in mining. 
 
-Include any special requirements for installing or operating the project. 
+The package is designed for engineers, operations analysts and consultants to support decision-making and perform techno-economic analyses.
 
-Additionally, add any major changes since the previous version.
+For a detailed description of how the TCO model works, check out the [project documentation](https://bevcost.readthedocs.io/en/latest/background.html).
 
-Finally, add links to further documentation, bug reporting, and any other important information for the project. 
+## Release History
 
-Dan Bader has put together a great tutorial on what all should be included in your readme.
-https://dbader.org/blog/write-a-great-readme-for-your-github-project
+* 0.0.1
+    * Work in progress
+
+## Meta
+
+Edward Fagan – [Zero Nexus](https://zero.nexus) – edward@zero.nexus
+
+Distributed under the GNU General Public License v3.0. See ``LICENSE`` for more information.
+
