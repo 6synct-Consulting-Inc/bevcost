@@ -39,9 +39,11 @@ Model classes
 -------------
 There are four classes that each describe a primary type of object the TCO model uses. The classes are: *FleetCell*, *InfraCell*, *WorkforceCell* and *DigitalSolutionsCell*. An example of a TCO analysis is shown in the figure below, made up of multiple objects from each class. 
 
-.. image:: ./images/TCO_Model.svg
+.. figure:: /_static/images/TCO_Model.svg
+   :align: center
+   :alt: TCO model block diagram
    
-*A block diagram showing an example TCO analysis. There are several instances of each of the four classes shown (FleetCell, InfraCell, WorkforceCell and DigitalSolutionsCell).*
+   *A block diagram showing an example TCO analysis. There are several instances of each of the four classes shown (FleetCell, InfraCell, WorkforceCell and DigitalSolutionsCell).*
 
 *FleetCell*
 ^^^^^^^^^^^
@@ -63,9 +65,11 @@ TCO analysis process
 --------------------
 The actual TCO analysis process is straightforward, once the input data has been created. The flowchart below shows the main calculation steps, from model setup to the main calculations for each class and the final cost summaries.
 
-.. image:: ./images/TCO_Analysis_Methodology.svg
+.. figure:: /_ststic/images/TCO_Analysis_Methodology.svg
+   :align: center
+   :alt: TCO model analysis flowchart
 
-*Flowchart showing the major steps in a TCO analysis from model setup to total costs analysis, with calculations for specific cost components shown beneath each step.*
+   *Flowchart showing the major steps in a TCO analysis from model setup to total costs analysis, with calculations for specific cost components shown beneath each step.*
 
 The TCO model is designed primarily for forecasting total cost of BEV fleet ownership. The cost analyses use parametric relationships to determine a first estimate cost of purchasing and operating a BEV fleet and the associated equipment. This forecasting activity is aimed at supporting mine designers, consultants and analysts in assessing the viability of electrified fleets for their mine.
 
