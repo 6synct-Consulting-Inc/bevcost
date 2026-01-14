@@ -17,7 +17,7 @@ Developed as part of the `EVMO Project <https://zero.nexus/evmo/>`__.
    :caption: Contents:
 
    background
-   api
+   apiref/index
 
 Indices and tables
 ==================
