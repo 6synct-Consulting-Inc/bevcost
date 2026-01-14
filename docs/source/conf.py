@@ -32,6 +32,13 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+autosummary_generate = True
+automodapi_inheritance_diagram = False
+autodoc_default_options = {
+    'members': True,
+    'inherited-members': True,
+    'private-members': False
+}
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
