@@ -3,20 +3,20 @@
 TCOmodel
 ========
 
-Overview of what the module does...
+This module contains the classes used for modelling the costs of a BEV fleet,
+and several functions useful for data processing and visualization.
 
 Main Features
 -------------
 
-Description of main features of the model...
-
-Classes
--------
-
-
-Functions
----------
-
+The main features include:
+    Classes for estimating the costs of BEV fleet, charging equipment, 
+    digital solutions and mining workforce
+    
+    Functions for summarizing all cashflows and determining the total cost of 
+    ownership of the mining BEV fleet
+    
+    Functions for visualizing the TCO results
 
 """
 
@@ -1138,11 +1138,76 @@ class DigitalSolutionsCell():
     
     Notes
     -----
+    Keys in the input dictionary: **data**
     
+    location : str
+        Geographic location of the infrastructure in the mine. 
+    type : str
+        Type of digital solution, e.g. software.
+    evse : dict
+        Dictionary containing the types of EV charging equipment 
+        related to the digital solution, keys are the EVSE model 
+        name and values are the number of EVSE.
+    capex schedule : list
+        A list specifying the dates each fraction of the 
+        digital solution purchase costs are paid. E.g. if the 
+        CAPEX schedule is 80% on Jan 1st 2022 and the remaining 
+        20% is paid three months later, the CAPEX schedule is 
+        entered as the following list:
+            [['2022/01/01', 0.80], ['2022/04/01', 0.20]]
+    opex schedule : list
+        A list specifying the dates and payment percentages for 
+        digital solution subscription costs. E.g. if the 
+        OPEX schedule is quarterly, with subscription payments 
+        on Jan 1st 2022 and then again three months later, the 
+        OPEX schedule is entered as the following list (where
+        a value of 1.0 indicates a payment of 100% of the 
+        monthly subscription fee):
+            [['2022/01/01', 1.0], ['2022/04/01', 1.0]]
     
+    Keys in the input dictionary: **solutions_params**
+    
+    infrastructure type : str
+        The type of digital solution, e.g. software.
+    solution name : str
+        The name of the digital solution.
+    unit price : float
+        The upfront cost for the digital solution, e.g. for 
+        system commissioning. Only required for CAPEX 
+        calculations.
+    subscription price : float
+        The regularly occurring subscription (OPEX) fee for 
+        the digital solution. The frequency of payment is defined
+        in the 'data' dictionary.
+        
     Examples
     --------
+    >>> import bevcost.TCOmodel as tco
+    >>> capex_dates = {'start date': '2022-01-01', 
+    ... 			   'end date': '2022-02-01'}
+    >>> opex_dates = {'start date': '2022-01-01', 
+    ... 			  'end date': '2022-02-01'}
+    >>> data = {"location": "IOC",
+    ... 		"type": "software",
+    ... 		"evse": {"workshop charger": 1},
+    ... 		"capex schedule": [["2022-01-01", 1.0]],
+    ... 		"opex schedule": [["2022-01-01", 1.0],
+    ... 						  ["2022-02-01", 1.0]]}
+    >>> solutions_params = {"infrastructure type": "software",
+    ... 					"solution name": "Fleet Management System",
+    ... 					"unit price": 200000,
+    ... 					"subscription price": 25000}
     
+    >>> digital_1 = tco.DigitalSolutionsCell(data,
+    ... 									 solutions_params,
+    ... 									 capex_dates=capex_dates, 
+    ... 									 opex_dates=opex_dates)
+    >>> digital_1.execute_analysis()
+    
+    >>> digital_1.software_costs
+            date  Software CAPEX
+    0 2022-01-01          200000
+    1 2022-02-01               0
     
     """
     def __init__(self, data, solutions_params, capex_dates=None, 
@@ -1328,12 +1393,48 @@ class WorkforceCell():
         
     Notes
     -----
+    Keys in the input dictionary: **data**
     
+    role : str
+        The type of role/vocation of the group of workers represented by the 
+        class instance, e.g. underground miner or electrician.
+    location : str
+        The location in the mine the group of workers are assigned.
+    personnel : dict
+        A dictionary with two items, the first is a "date" key with 
+        corresponding list of years. The second is a "workforce size" key with 
+        a list containing the number of workers for each year.
+    
+    Keys in the input dictionary: **data**
+    
+    labour rates : dict
+        A dictionary with two items, the first key is a role string, with 
+        the corresponding value as the labour rate for that role (a float). The
+        second key is "frequency" indicating the payment frequency for the
+        labour rate, e.g. annual, monthly or hourly.
     
     Examples
     --------
+    >>> import bevcost.TCOmodel as tco
+    >>> opex_dates = {'start date': '2022-01-01',
+    ...               'end date': '2022-02-01'}
+    >>> data = {"role": "underground miner",
+    ... 		"location": "extraction",
+    ... 		"personnel": {"date": [2022],
+    ... 					  "workforce size": [10]}}
+    >>> business_params = {"labour rates": {"underground miner": 120000.0,
+    ... 									"frequency": "annual"}}
     
+    >>> workforce_1 = tco.WorkforceCell(data,
+    ... 								business_params,
+    ... 								opex_dates=opex_dates)
+    >>> workforce_1.execute_analysis()
     
+    >>> workforce_1.labour_costs
+            date    labour
+    0 2022-01-01  100000.0
+    1 2022-02-01  100000.0
+        
     """
     
     def __init__(self, data, business_params, capex_dates=None, 
