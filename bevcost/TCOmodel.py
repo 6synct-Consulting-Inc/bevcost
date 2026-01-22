@@ -26,6 +26,9 @@ import math
 from bisect import bisect_right
 from datetime import datetime
 import matplotlib.pyplot as plt
+import matplotlib.ticker as tkr
+from matplotlib_inline.backend_inline import set_matplotlib_formats
+import matplotlib.dates as mdates
 import numpy as np
 import numpy_financial as nf
 from collections import defaultdict
@@ -2085,6 +2088,119 @@ def spaghetti_line_plots(fig, axes, title, df, palette, save_fig=False,
         plt.savefig(os.path.join(save_dir, save_name+'.svg'), format="svg", bbox_inches = "tight")
     
     plt.show()
+    
+    
+def stacked_bar_chart(ax, data, x_label=None, label_formats={'x': '${x:,.2f}', 'y': None}, out_format='svg'):
+    """
+    Generate stacked bar chart figures.
+
+    Parameters
+    ----------
+    ax : matplotlib.axes.Axes
+        A matplotlib Axes object containing all the elements of an individual
+        (sub-)plot in a matplotlib figure.
+    data : dict
+        Either a dictionary with three entries. The first key 'x' contains a list
+        of x-axis objects, such as years or categories to compare. 
+        
+        The second key 'cost labels' contains a list of cost components 
+        (the segments in each bar of the bar chart) or if the data entry 
+        contains a list of Pandas Series objects this option can be None.
+        
+        The third key 'data' contains a list of lists of cost values. Each list 
+        contains the cost values for one cost component. Alternatively a list 
+        of pandas Series each representing a cost component can be provided. 
+        Each series must have a name (the cost component) 
+        (e.g. pd.Series(data=[5000, 5000, 3000], name="Energy Consumption")).
+    x_label : str
+        The label for the x-axis. The default is None.
+    label_formats : dict
+        A dictionary to define the format of the x and y labels. The default value
+        for the 'x' key is '${x:,.2f}' (e.g. $1.20), and the default value for 
+        the 'y' key is None.
+    out_format : str
+        The type of image file matplotlib will generate. The default is 'svg'.
+
+    Returns
+    -------
+    ax : matplotlib.axes.Axes
+        A matplotlib Axes object containing all the elements of an individual
+        (sub-)plot in a matplotlib figure.
+
+    """
+    ## Extract the plotting information from the dictionary
+    # Extract data from a list of lists
+    if(type(data['data']) is list and type(data['data'][0]) is list):
+        x_series = data['x']
+        y_series = data['data']
+        labels = data['cost labels']
+    
+    # Extract data from a list of pd.Series objects
+    elif(type(data['data']) is list and type(data['data'][0]) is pd.core.series.Series):
+        # Confirm the index of each Series matches
+        test = []
+        
+        for ix in range(len(data['data'])-1):
+            test.append( data['data'][ix].index.equals(data['data'][ix+1].index) )
+            
+        if(False in test):
+            print("Error: indices for all time series do not match")
+            return
+        
+        x_series = data['x']
+        y_series = [_.values for _ in data['data']]
+        labels = [_.name for _ in data['data']]
+    
+    ## Create stacked bar chart
+    bottom = np.zeros(len(x_series))
+    width = 0.5
+    
+    # Set the colourmap to use for each cost component
+    bar_color = plt.get_cmap('Set1')
+
+    for cost, segment_heights in enumerate(y_series):
+        # Add each layer of cost components
+        p = ax.bar(x_series, 
+                   segment_heights, 
+                   width, 
+                   label=labels[cost], 
+                   bottom=bottom,
+                   color=bar_color(cost))
+        
+        bottom += np.array(segment_heights)
+    
+    ## Format chart
+    # Automatically display legend
+    ax.legend(loc="best")
+    
+    # Format the x-axis
+    ax.set_xlabel(x_label, fontweight="bold")
+    ax.set_xticks(x_series)
+    ax.set_xticklabels(x_series)
+    
+    # Turn off the top/right axis spines
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    
+    # Set the format for x-axis and y-axis values
+    if(type(label_formats['x']) is str):
+        ax.yaxis.set_major_formatter(tkr.StrMethodFormatter(label_formats['x']))
+    
+    # if(type(label_formats['y']) is mdates.DateFormatter):
+    #     ax.xaxis.set_major_formatter(label_formats['y'])
+    #     ax.xaxis.set_major_locator(mdates.YearLocator(interval=12))
+    
+    # Remove axis ticks
+    ax.tick_params(which="major", bottom=False, left=False)
+   
+    # Make the horizontal grid visible and display behind the bars
+    ax.yaxis.grid(True, color="grey", linestyle='-', linewidth=0.75, alpha=0.5)
+    ax.set_axisbelow(True)
+    
+    # Set output file format
+    set_matplotlib_formats(out_format)
+    
+    return ax
 
 
 def waterfall_chart():
