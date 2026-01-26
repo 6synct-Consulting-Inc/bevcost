@@ -26,7 +26,9 @@ classifiers = [
 ]
 #license = "GPL-3.0"
 license = {file = "LICENSE.md"}
+keywords = ["battery electric vehicles", "BEV", "total cost of ownership", "TCO"]
 
 [project.urls]
 Homepage = "https://github.com/6synct-Consulting-Inc/bevcost"
 Issues = "https://github.com/6synct-Consulting-Inc/bevcost/issues"
+Documentation = "https://bevcost.readthedocs.io/en/latest/"
