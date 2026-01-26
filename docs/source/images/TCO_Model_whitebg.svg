@@ -8,8 +8,8 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="TCO_Model.svg"
-   inkscape:export-filename="TCO_Model_whitebg.svg"
+   sodipodi:docname="TCO_Model_whitebg.svg"
+   inkscape:export-filename="TCO Model.png"
    inkscape:export-xdpi="670.8"
    inkscape:export-ydpi="670.8"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.50205276"
-     inkscape:cx="599.53858"
-     inkscape:cy="428.24184"
+     inkscape:zoom="0.25102638"
+     inkscape:cx="581.61218"
+     inkscape:cy="860.46733"
      inkscape:window-width="958"
      inkscape:window-height="1008"
      inkscape:window-x="946"
@@ -49,6 +49,14 @@
       <g
          id="g17"
          transform="translate(2.1694702,1.8747601)">
+        <rect
+           style="fill:#ffffff;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.5;paint-order:fill markers stroke;fill-opacity:1"
+           id="rect2"
+           width="270"
+           height="245"
+           x="-2.1694703"
+           y="-0.99038655"
+           ry="0.70403069" />
         <rect
            style="fill:none;fill-opacity:1;stroke:#151515;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-dasharray:2.295, 2.295;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
            id="rect1-7"
@@ -166,12 +174,12 @@
                id="text1-0-2"><tspan
                  x="50.540661"
                  y="93.173012"
-                 id="tspan10">BEV LHDs<tspan
+                 id="tspan3">BEV LHDs<tspan
    y="93.173012"
-   id="tspan11"> </tspan></tspan><tspan
+   id="tspan4"> </tspan></tspan><tspan
                  x="50.540661"
                  y="100.22856"
-                 id="tspan12">(Large)</tspan></text>
+                 id="tspan5">(Large)</tspan></text>
             <text
                xml:space="preserve"
                style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
@@ -204,7 +212,7 @@
                id="text1-0-2-2"><tspan
                  x="50.540661"
                  y="93.173012"
-                 id="tspan13">Utility BEVs</tspan></text>
+                 id="tspan7">Utility BEVs</tspan></text>
             <text
                xml:space="preserve"
                style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
@@ -237,12 +245,12 @@
                id="text1-0-2-1"><tspan
                  x="50.540661"
                  y="93.173012"
-                 id="tspan14">Light Duty<tspan
+                 id="tspan8">Light Duty<tspan
    y="93.173012"
-   id="tspan15"> </tspan></tspan><tspan
+   id="tspan9"> </tspan></tspan><tspan
                  x="50.540661"
                  y="100.22856"
-                 id="tspan16">BEVs</tspan></text>
+                 id="tspan10">BEVs</tspan></text>
             <text
                xml:space="preserve"
                style="font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
@@ -287,12 +295,12 @@
              id="text1-0-8"><tspan
                x="106.72382"
                y="50.818188"
-               id="tspan17">BEV LHDs<tspan
+               id="tspan11">BEV LHDs<tspan
    y="50.818188"
-   id="tspan19"> </tspan></tspan><tspan
+   id="tspan12"> </tspan></tspan><tspan
                x="106.72382"
                y="57.873737"
-               id="tspan20">(Small)</tspan></text>
+               id="tspan13">(Small)</tspan></text>
         </g>
         <g
            id="g7"
@@ -361,12 +369,12 @@
              transform="translate(0,-2.1166667)"><tspan
                x="106.72382"
                y="51.738712"
-               id="tspan21">Maintenance<tspan
+               id="tspan14">Maintenance<tspan
    y="51.738712"
-   id="tspan22"> </tspan></tspan><tspan
+   id="tspan15"> </tspan></tspan><tspan
                x="106.72382"
                y="58.794261"
-               id="tspan23">(Electrical)</tspan></text>
+               id="tspan16">(Electrical)</tspan></text>
         </g>
         <g
            id="g7-7"
@@ -400,12 +408,12 @@
              transform="translate(0,-2.1166667)"><tspan
                x="106.72382"
                y="51.915115"
-               id="tspan24">Maintenance<tspan
+               id="tspan17">Maintenance<tspan
    y="51.915115"
-   id="tspan25"> </tspan></tspan><tspan
+   id="tspan18"> </tspan></tspan><tspan
                x="106.72382"
                y="58.970664"
-               id="tspan26">(Mechanical)</tspan></text>
+               id="tspan19">(Mechanical)</tspan></text>
         </g>
         <rect
            style="fill:none;fill-opacity:1;stroke:#151515;stroke-width:0.765002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-dasharray:2.295, 2.295;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
@@ -458,17 +466,17 @@
              id="text1-0-8-2-7"><tspan
                x="106.72382"
                y="46.799831"
-               id="tspan27">Energy<tspan
+               id="tspan20">Energy<tspan
    y="46.799831"
-   id="tspan28"> </tspan></tspan><tspan
+   id="tspan21"> </tspan></tspan><tspan
                x="106.72382"
                y="53.85538"
-               id="tspan29">Management<tspan
+               id="tspan22">Management<tspan
    y="53.85538"
-   id="tspan30"> </tspan></tspan><tspan
+   id="tspan23"> </tspan></tspan><tspan
                x="106.72382"
                y="60.91093"
-               id="tspan31">System</tspan></text>
+               id="tspan24">System</tspan></text>
         </g>
         <g
            id="g7-7-0"
@@ -502,17 +510,17 @@
              transform="translate(0,-4.0569496)"><tspan
                x="106.72382"
                y="50.856781"
-               id="tspan32">Maintenance<tspan
+               id="tspan25">Maintenance<tspan
    y="50.856781"
-   id="tspan33"> </tspan></tspan><tspan
+   id="tspan26"> </tspan></tspan><tspan
                x="106.72382"
                y="57.91233"
-               id="tspan34">Management<tspan
+               id="tspan27">Management<tspan
    y="57.91233"
-   id="tspan35"> </tspan></tspan><tspan
+   id="tspan28"> </tspan></tspan><tspan
                x="106.72382"
                y="64.967879"
-               id="tspan36">System</tspan></text>
+               id="tspan29">System</tspan></text>
         </g>
         <g
            id="g16"
@@ -549,7 +557,7 @@
                transform="translate(0.88410786,-0.00137815)"><tspan
                  x="181.55754"
                  y="50.294533"
-                 id="tspan37">Chargers</tspan></text>
+                 id="tspan30">Chargers</tspan></text>
           </g>
           <g
              id="g14"
@@ -583,12 +591,12 @@
                transform="translate(0.81851251)"><tspan
                  x="183.15477"
                  y="92.649361"
-                 id="tspan38">Battery Swapping<tspan
+                 id="tspan31">Battery Swapping<tspan
    y="92.649361"
-   id="tspan39"> </tspan></tspan><tspan
+   id="tspan32"> </tspan></tspan><tspan
                  x="183.15477"
                  y="99.704913"
-                 id="tspan40">Station</tspan></text>
+                 id="tspan33">Station</tspan></text>
           </g>
           <g
              id="g12"
@@ -622,7 +630,7 @@
                transform="translate(0.88436726,-3.5277759)"><tspan
                  x="234.98065"
                  y="53.82093"
-                 id="tspan41">Fast Chargers</tspan></text>
+                 id="tspan34">Fast Chargers</tspan></text>
           </g>
           <g
              id="g13"
@@ -656,12 +664,12 @@
                transform="translate(0.81819253)"><tspan
                  x="235.91031"
                  y="92.64798"
-                 id="tspan42">Battery Storage<tspan
+                 id="tspan35">Battery Storage<tspan
    y="92.64798"
-   id="tspan43"> </tspan></tspan><tspan
+   id="tspan36"> </tspan></tspan><tspan
                  x="235.91031"
                  y="99.703532"
-                 id="tspan44">Depot</tspan></text>
+                 id="tspan37">Depot</tspan></text>
           </g>
           <g
              id="g15"
