@@ -94,9 +94,9 @@ label_formats = {'x': '${x:,.0f}',
 
 # Create the stacked bar chart
 ax = tco.stacked_bar_chart(ax,
-                            data,
-                            x_label=x_label,
-                            label_formats=label_formats)
+                           data,
+                           x_label=x_label,
+                           label_formats=label_formats)
 
 # Add a title
 ax.set_title("Annual LHD TCO", fontweight="bold")
@@ -114,11 +114,11 @@ fig, ax = plt.subplots(figsize=(5,5))
 data = {'x': ["BEV Trucks", "BEV LHDs", "BEV Jumbos"],
         'cost labels': None,
         'data': [pd.Series(data=[6500, 5000, 2500],
-                            name="Energy"),
-                  pd.Series(data=[3000, 1000, 600],
-                            name="Power"),
-                  pd.Series(data=[500, 1500, 300],
-                            name="BaaS")]}
+                           name="Energy"),
+                 pd.Series(data=[3000, 1000, 600],
+                           name="Power"),
+                 pd.Series(data=[500, 1500, 300],
+                           name="BaaS")]}
 
 # Provide label details (label name and formatting)
 x_label = "Mining Equipment"

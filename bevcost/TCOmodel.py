@@ -2029,14 +2029,11 @@ def financial_analysis(start_year, costs_list, business_params, costs_dict):
     return npv_dict
 
 
-def spaghetti_line_plots(fig, axes, title, df, palette, save_fig=False,
-                         save_dir=None, save_name=None):
+def spaghetti_line_plots(axes, title, df, palette):
     """Spaghetti chart combined with multiple small charts for TCO cost categories.
     
     Parameters
     ----------
-    fig : matplotlib.figure.Figure
-        A figure object.
     axes : ndarray
         An array of matplotlib.axes.Axes objects.
     title : str
@@ -2045,13 +2042,6 @@ def spaghetti_line_plots(fig, axes, title, df, palette, save_fig=False,
         Pandas DataFrame containing annual cashflows for cost categories.
     palette : matplotlib.colors.ListedColormap
         Matplotlib colormap object.
-    save_fig : bool, optional
-        Option to save the figure. The default is False.
-    save_dir : str, optional
-        Directory to save the figure. The default is None.
-    save_name : str, optional
-        Filename for the image file. The default is None.
-
     """
     axes = axes.flatten()
     
@@ -2063,34 +2053,37 @@ def spaghetti_line_plots(fig, axes, title, df, palette, save_fig=False,
         # Plot every line gray and transparent
         for v in df.drop('x', axis=1):
             
-            ax.plot(df['x'], df[v], marker='', color='grey', linewidth=0.6, alpha=0.3)
+            ax.plot(df['x'], 
+                    df[v], 
+                    marker='', 
+                    color='grey', 
+                    linewidth=0.6, 
+                    alpha=0.3)
         
         # Plot the subplot's main line bold
-        ax.plot(df['x'], df[column], marker='', color=palette(num), linewidth=2.4, alpha=1.0, label=column)
+        ax.plot(df['x'], 
+                df[column], 
+                marker='', 
+                color=palette(num), 
+                linewidth=2.4, 
+                alpha=1.0, 
+                label=column)
+        
         ax.tick_params(labelleft=True)
         
-        ax.set_title(column, loc='left', fontsize=14, fontweight=10, weight="bold", color=palette(num))
+        ax.set_title(column, 
+                     loc='left', 
+                     fontsize=14, 
+                     fontweight=10, 
+                     weight="bold", 
+                     color=palette(num))
     
-    # Add figure title
-    fig.suptitle(
-                 title,
-                 fontsize=16,
-                 fontweight="bold",
-                 color='black',
-                 y=0.95
-                )
-    
-    # Adjust the figure layout
-    fig.tight_layout(rect=[0, 0.03, 1, 0.95])
-    
-    # Save the figure
-    if(save_fig is True):
-        plt.savefig(os.path.join(save_dir, save_name+'.svg'), format="svg", bbox_inches = "tight")
-    
-    plt.show()
-    
-    
-def stacked_bar_chart(ax, data, x_label=None, label_formats={'x': '${x:,.2f}', 'y': None}, out_format='svg'):
+    return axes
+
+
+def stacked_bar_chart(ax, data, x_label=None, 
+                      label_formats={'x': '${x:,.2f}', 'y': None}, 
+                      out_format='svg'):
     """
     Generate stacked bar chart figures.
 
