@@ -1865,7 +1865,7 @@ def annual_cashflow_summary(fleet_objects=None, infra_objects=None,
                 annual_capex = annual_object_summary(workforce.capex_variables)
                 capex_objects[f"{workforce.info} {workforce.location}"] = annual_capex
     
-    return (opex_objects, opex_vars), (capex_objects, capex_vars)
+    return opex_objects, opex_vars, capex_objects, capex_vars
 
 
 def npv_calc(start_year, npv_df, discount):

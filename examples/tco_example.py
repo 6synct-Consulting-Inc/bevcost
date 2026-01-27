@@ -6,6 +6,8 @@ Basic example
 import pandas as pd
 import json
 import matplotlib.pyplot as plt
+from matplotlib_inline.backend_inline import set_matplotlib_formats
+import matplotlib.colors as colors
 import os
 # import TCOmodel as tco
 import bevcost.TCOmodel as tco
@@ -36,16 +38,13 @@ equipment_json_path = os.path.join(data_dir, 'data.json')
 with open(equipment_json_path, 'r') as file:
     equipment_data = json.load(file)
 
-infrastructure_data = equipment_data["infrastructure"]
-digital_solutions_data = equipment_data["digital solutions"]
-
 # Import TCO anlaysis data
 tco_analysis_path = os.path.join(data_dir, 'analysis.json')
 
 with open(tco_analysis_path, 'r') as file:
     analysis_data = json.load(file)
 
-# Import TCO analysis start and end dates
+# Set project name and TCO analysis start / end dates
 project_name = analysis_data["analysis"]["project name"]
 capex_dates = analysis_data["analysis"]["CAPEX"]
 opex_dates = analysis_data["analysis"]["OPEX"]
@@ -94,7 +93,9 @@ for fleet_params in analysis_data["fleet"]:
 
 """
 Infrastructure analysis
-""" 
+"""
+# Import infrastructure data
+infrastructure_data = equipment_data["infrastructure"]
 facility_params = infrastructure_data[0]
 
 infra_stock = []
@@ -119,6 +120,7 @@ for infra_params in analysis_data["infrastructure"]:
 Digital solutions analysis
 """
 # Import digital solutions data
+digital_solutions_data = equipment_data["digital solutions"]
 solutions_params = digital_solutions_data[0]
 
 digital_stock = []
@@ -155,10 +157,44 @@ for workforce_params in analysis_data["workforce"]:
 Electric mine TCO analysis
 """
 
-(opex_objects, opex_vars), (capex_objects, capex_vars) = tco.annual_cashflow_summary(fleet_objects=fleet_stock, 
-                                                                                      infra_objects=infra_stock, 
-                                                                                      labour_objects=workforce_pool, 
-                                                                                      digital_solution_objects=digital_stock)
+opex_objects, opex_vars, capex_objects, capex_vars = tco.annual_cashflow_summary(fleet_objects=fleet_stock, 
+                                                                                 infra_objects=infra_stock, 
+                                                                                 labour_objects=workforce_pool, 
+                                                                                 digital_solution_objects=digital_stock)
+
+opex_objects, opex_vars, capex_objects, capex_vars = tco.annual_cashflow_summary(fleet_objects=fleet_stock)
+
+
+fig, ax = plt.subplots(layout='constrained')
+
+plt.bar(opex_objects['fleet level 1']['maintenance costs'].index.year, 
+        opex_objects['fleet level 1']['maintenance costs'].values,
+        width=0.5)
+
+plt.show()
+
+
+fig, ax = plt.subplots(layout='constrained')
+
+width = 0.25
+mult = 0
+x = np.arange(len(opex_vars['fleet maintenance costs']))
+
+for col_name in opex_vars['fleet maintenance costs']:
+    
+    offset = width * mult
+    
+    rects = ax.bar(x + offset, 
+                   opex_vars['fleet maintenance costs'][col_name].values, 
+                   width, 
+                   label=col_name)
+    
+    mult += 1
+
+label_list= [str(_) for _ in list(opex_vars['fleet maintenance costs'].index)]
+ax.set_xticks(x + width, label_list)
+
+plt.show()
 
 # (opex_objects, opex_vars), (capex_objects, capex_vars) = tco.annual_cashflow_summary(fleet_objects=None, 
 #                                                                                      infra_objects=None, 
@@ -181,6 +217,39 @@ flattened_col_names = [_ for sublist in new_col_names for _ in sublist]
 capex_concat = pd.concat(capex_objects, axis=1)
 capex_concat.columns = flattened_col_names
 capex_concat["total capex"] = capex_concat.sum(axis=1)
+
+opex_concat.drop("total opex", axis=1, inplace=True)
+
+
+"""
+Data visualization
+"""
+set_matplotlib_formats("svg")
+
+
+## Heatmap visualization
+# fig, ax = plt.subplots()
+
+# vmin = opex_concat.min().min()
+# vmax = opex_concat.max().max()
+# norm = colors.TwoSlopeNorm(vmin=vmin, vcenter=0, vmax=vmax)
+
+# im = ax.imshow(opex_concat, norm=norm, cmap="bwr")
+
+# ax.set_xticks(range(len(opex_concat.keys())), 
+#               labels=opex_concat.keys(),
+#               rotation=45, 
+#               ha="right", 
+#               rotation_mode="anchor")
+
+# ax.set_yticks(range(len(opex_concat.index.year)), 
+#               labels=opex_concat.index.year)
+
+# # cbar = ax.figure.colorbar(im, ax=ax, extend='min')
+# # cbar.ax.set_ylabel("costs", rotation=-90, va="bottom")
+# plt.colorbar(mappable=im, ax=ax)
+
+# plt.show()
 
 
 # capex, opex, production, consumption, waste = tco.tco_summary([fleet_1], 
